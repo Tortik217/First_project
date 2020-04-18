@@ -1,0 +1,188 @@
+.container {
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(322px, 12fr)); 
+    grid-row-gap: 30px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-row-gap: 30px;
+}
+
+.container > div > div> img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    margin: 0 auto;
+    width: 100%;
+}
+nav.nav > ul {
+    background: rgb(212, 231, 238);
+    overflow: hidden;
+    width: auto;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+nav.nav > ul > li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    
+}
+nav.nav > ul > li > a {
+    display: block;
+    padding: 1em;
+    background:rgb(212, 231, 238);
+    color: rgb(41, 131, 140);
+    text-decoration: none;
+    line-height: 45px;
+}
+
+nav.nav > ul > li > a:hover {
+    background: rgb(182, 197, 207);
+}
+nav.nav > ul > li > p {
+    color: rgb(233, 41, 16);
+    font-size: 25px;
+        
+}
+.container > div > div {
+    text-align: center;
+}
+header > nav > ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+main {
+    background-image: url(img/фон.jpg);
+}
+
+h2 {
+    text-align: center;
+}
+.item {
+    margin: 5px;
+}
+/*.forma1,.forma2,.forma3 {
+    margin-left: 5px;
+}*/
+@media screen and (max-width: 1000px) {
+    .container {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(322px, 3fr));
+        grid-template-rows: repeat(auto-fit, minmax(322px, 12fr)); 
+        grid-row-gap: 30px;
+    }
+    .container2 {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 2fr)); 
+        grid-row-gap: 30px;
+
+    }
+    nav.nav > ul > li {
+        float: none;
+     
+    }
+
+    p img {
+        width: 100%;
+    }
+    nav.nav > ul > li > p, nav.nav > ul > li > a {
+        text-align: center;
+    }
+       
+}   
+
+
+@media screen and (max-width: 720px) {
+    .container {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(322px, 3fr));
+        grid-template-rows: repeat(auto-fit, minmax(322px, 12fr)); 
+        grid-row-gap: 30px;
+    }
+    .container2 {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 2fr)); 
+        grid-row-gap: 20px;
+    }
+    nav.nav  ul  li {
+        float: none;
+    }
+    p img {
+        width: 100%;
+    }
+    nav.nav > ul > li > p {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .container {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(322px, 3fr));
+        grid-template-rows: repeat(auto-fit, minmax(322px, 12fr)); 
+        grid-row-gap: 30px;
+    }
+    .container2 {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 2fr)); 
+        grid-row-gap: 20px;
+    }
+    nav.nav  ul  li {
+        float: none;
+
+    }
+    p img {
+        width: 100%;
+    }
+    nav.nav > ul > li > p, nav.nav > ul > li > a {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(322px, 3fr));
+        grid-template-rows: repeat(auto-fit, minmax(322px, 12fr)); 
+        grid-row-gap: 30px;
+    }
+    .container2 {
+        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+        grid-template-rows: repeat(auto-fit, minmax(200px, 2fr)); 
+        grid-row-gap: 30px;
+    }
+    nav.nav  ul  li {
+        float: none;
+    }
+    p img {
+        width: 100%;
+    }
+    nav.nav > ul > li > p, nav.nav > ul > li > a {
+        text-align: center;
+    }
+    
+}
