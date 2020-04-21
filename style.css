@@ -72,9 +72,7 @@ h2 {
 .item {
     margin: 5px;
 }
-/*.forma1,.forma2,.forma3 {
-    margin-left: 5px;
-}*/
+
 @media screen and (max-width: 1000px) {
     .container {
         justify-content: space-between;
